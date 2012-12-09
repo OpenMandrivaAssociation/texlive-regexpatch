@@ -53,3 +53,12 @@ experimental packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.1b-2
++ Revision: 813740
+- Update to latest release.
+- Import texlive-regexpatch
+- Import texlive-regexpatch
+
