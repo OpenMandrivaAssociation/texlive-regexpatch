@@ -1,13 +1,13 @@
-# revision 27155
+# revision 29543
 # category Package
 # catalog-ctan /macros/latex/contrib/regexpatch
-# catalog-date 2012-07-24 17:30:46 +0200
+# catalog-date 2013-03-28 17:44:41 +0100
 # catalog-license lppl1.3
-# catalog-version 0.1b
+# catalog-version 0.2
 Name:		texlive-regexpatch
 Epoch:		1
-Version:	0.1b
-Release:	2
+Version:	0.2
+Release:	1
 Summary:	High level patching of commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/regexpatch
@@ -53,12 +53,3 @@ experimental packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.1b-2
-+ Revision: 813740
-- Update to latest release.
-- Import texlive-regexpatch
-- Import texlive-regexpatch
-
