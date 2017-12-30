@@ -6,8 +6,8 @@
 # catalog-version 0.2
 Name:		texlive-regexpatch
 Epoch:		1
-Version:	0.2
-Release:	9
+Version:	0.2b
+Release:	1
 Summary:	High level patching of commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/regexpatch
