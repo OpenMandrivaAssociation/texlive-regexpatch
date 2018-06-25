@@ -6,7 +6,7 @@
 # catalog-version 0.2
 Name:		texlive-regexpatch
 Epoch:		1
-Version:	0.2c
+Version:	0.2d
 Release:	1
 Summary:	High level patching of commands
 Group:		Publishing
