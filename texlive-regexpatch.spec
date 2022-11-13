@@ -1,20 +1,14 @@
-# revision 29543
-# category Package
-# catalog-ctan /macros/latex/contrib/regexpatch
-# catalog-date 2013-03-28 17:44:41 +0100
-# catalog-license lppl1.3
-# catalog-version 0.2
 Name:		texlive-regexpatch
 Epoch:		1
-Version:	0.2d
-Release:	3
+Version:	58668
+Release:	1
 Summary:	High level patching of commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/regexpatch
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/regexpatch.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/regexpatch.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/regexpatch.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/regexpatch.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/regexpatch.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/regexpatch.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +22,12 @@ its sibling xpatch is that this package sports a very powerful
 experimental packages.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -46,7 +40,8 @@ experimental packages.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
