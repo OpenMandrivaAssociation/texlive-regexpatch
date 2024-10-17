@@ -4,7 +4,7 @@ Version:	58668
 Release:	2
 Summary:	High level patching of commands
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/regexpatch
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/regexpatch
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/regexpatch.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/regexpatch.doc.r%{version}.tar.xz
