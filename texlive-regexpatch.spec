@@ -1,7 +1,7 @@
 Name:		texlive-regexpatch
 Epoch:		1
-Version:	58668
-Release:	2
+Version:	77677
+Release:	1
 Summary:	High level patching of commands
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/regexpatch
